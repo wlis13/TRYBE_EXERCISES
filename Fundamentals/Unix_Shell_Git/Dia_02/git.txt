@@ -1,0 +1,9 @@
+Os comandos do Git servem para controlar o histórico de versões de 
+um projeto de software, permitindo rastrear alterações, 
+colaborar com outros desenvolvedores e manter um registro 
+seguro das modificações. Alguns comandos essenciais 
+incluem "git init" para iniciar um repositório, "git add" 
+para preparar alterações, "git commit" para salvar alterações 
+e "git push" para enviar para um repositório remoto. 
+Há muitos outros comandos para gerenciar branches, 
+mesclar alterações e mais. É uma ferramenta fundamental para desenvolvedores.

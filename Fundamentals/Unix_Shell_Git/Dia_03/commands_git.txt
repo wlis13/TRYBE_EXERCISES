@@ -1,0 +1,14 @@
+Para iniciar um projeto a partir de um diretório remoto do github:
+(1) criar um diretório local vazio
+(2) vá no github crie um diretório remoto com README.md
+(3) volte para o diretório local e digite o comando: git clone + url do diretório remoto
+(4) feito isso o diretório remoto e o local vão estár conectados.
+
+Para iniciar um projeto a partir de um diretório local:
+(1) crie o diretório local
+(2) dentro do diretório local digite o comando: git init
+(3) vá no github e crie um diretório remoto
+(4) volte para o diretório local e digite o comando: git remote add origin + url do diretório remoto
+(5) agora para enviar o conteúdo do diretório local para o remoto é só digitar os comandos: 
+    git add . + git commit -m "descrição do commit" + git push -u origin + master ou main
+(6) agora nos próximos envios é somente: git add . + git commit -m "descrição" + git push
