@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/index.css">
+  <title>first day HTML and CSS page structures</title>
+</head>
+
+<body class="container_body">
+  <a class="links" id="top" href="#deep">Vá para baixo meu querido</a>
+  <ul class="list_not_ordened">
+    <li>Rafael</li>
+    <li>Ana Carolina</li>
+    <li>Victor</li>
+  </ul>
+  <a class="links" href="./other.html" target="_blank">vá para essa página!</a></br>
+  <a class="links" href="https://www.seaart.ai/" target="_blank">Esse é bão!</a>
+  <div class="container_images">
+    <img
+      src="https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      alt="web development">
+    <img src="../images/image-china.png" alt="flag of china">
+  </div>
+  <ol id="ol"></ol>
+  <p>eisme aqui</p>
+  <a class="links" id="deep" href="#top">Vá para cima meu querido</a>
+  <script>
+    const paragraphs = [
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+      "conteúdo grande",
+    ];
+
+    const ol = document.getElementById("ol");
+    paragraphs.forEach((item, index) => {
+      const li = document.createElement("li");
+      li.innerHTML = item;
+      ol.appendChild(li);
+    })
+  </script>
+</body>
+
+</html>
