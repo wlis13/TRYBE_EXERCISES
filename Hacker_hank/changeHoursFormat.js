@@ -21,6 +21,9 @@ function convertForAmPm(hours) {
   if (hour > 12) {
     convertedHour -= 12;
   }
+  if (hour.slice(1, 1) === 0) {
+    convertedHour += 12;
+  }
 
   console.log(`${convertedHour}:${minutes}:${seconds}`)
 };
